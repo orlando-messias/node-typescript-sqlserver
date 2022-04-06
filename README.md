@@ -37,8 +37,8 @@ src
 │    |── nameModel01.ts
 │    |── nameModel02.ts
 ├── requests
-│   ├── requestName01.ts
-│   ├── requestName02.ts
+│   ├── requestName01.http
+│   ├── requestName02.http
 ├── routes
 │   ├── nameRoute01.ts
 │   |── nameRoute02.ts
