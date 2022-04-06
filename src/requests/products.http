@@ -1,0 +1,44 @@
+###
+###
+// PRODUCTS
+
+GET http://localhost:3000/products
+
+###
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "product": "Monitor Dell",
+  "descriptionProduct": "Monitor 21.5 Dell P2222H, Preto, 21,5",
+  "quantity": 20
+}
+
+###
+
+DELETE http://localhost:3000/products/5
+
+###
+
+PUT http://localhost:3000/products/7
+Content-Type: application/json
+
+{
+  "product": "Notebook Samsung i7",
+  "descriptionProduct": "Notebook Samsung Book Intel Core i7 8GB 256GB SSD",
+  "quantity": 30
+}
+
+###
+###
+// ---------------------------------------------------------
+// SALES
+
+POST http://localhost:3000/sales
+Content-Type: application/json
+
+{
+  "productId": 8,
+  "quantity": 80
+}
