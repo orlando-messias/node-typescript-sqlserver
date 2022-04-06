@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { getConnection, sql } from '../database/connection';
-import queries from '../database/queries';
+import queries from "../database/queries";
 
 export const getProducts = async (_req: Request, res: Response) => {
   try {
